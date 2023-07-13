@@ -1,0 +1,31 @@
+$primary: #0d1b2a;
+$secondary: #d4af37;
+$accent: #6b2c70;
+
+.nav {
+  font-size: 1rem;
+  background-color: $secondary;
+  color: $primary;
+  display: flex;
+  justify-content: center;
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 5rem;
+    padding: 1rem 0;
+    li {
+      cursor: pointer;
+      border-bottom: 2px solid transparent;
+      &:hover {
+        border-bottom-color: $accent;
+        transition: all 0.5s;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  ul {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,22 @@
+$primary: #0d1b2a;
+$secondary: #d4af37;
+
+.header {
+  font-size: 0.8rem;
+  background-color: $primary;
+  color: $secondary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .header-logo {
+    max-width: 15%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    gap: 5rem;
+    font-size: 2rem;
+  }
+}

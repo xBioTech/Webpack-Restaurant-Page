@@ -1,0 +1,31 @@
+$main-content-color: #234e33;
+$secondary: #d4af37;
+
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $main-content-color;
+  color: $secondary;
+
+  .cook {
+    max-width: 20%;
+    margin-bottom: 2rem;
+  }
+
+  .cook-introduction {
+    max-width: 70%;
+    font-size: 1rem;
+  }
+
+  .main-content-headline {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  .main-text {
+    max-width: 70%;
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+}
