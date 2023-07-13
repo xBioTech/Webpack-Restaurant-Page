@@ -1,0 +1,33 @@
+$secondary: #d4af37;
+$second-accent: #28abe3;
+$accent: #6b2c70;
+$main-content-color: #234e33;
+
+.menu {
+  display: grid;
+  background-color: $main-content-color;
+  justify-items: center;
+  gap: 2rem;
+  .card {
+    margin-top: 3rem;
+  }
+  .item-attribute-blue {
+    color: $second-accent;
+  }
+  .item-attribute-epic {
+    color: #c8a2c8;
+  }
+  .item-attribute-legendary {
+    color: $secondary;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .menu {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .footer {
+    grid-column: 1/4;
+  }
+}
