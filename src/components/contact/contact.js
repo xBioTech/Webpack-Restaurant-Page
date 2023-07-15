@@ -1,6 +1,8 @@
 function createContact() {
   const contentDiv = document.getElementById("content");
   const mainContentDiv = document.createElement("div");
+  mainContentDiv.classList.add("main-content");
+  contentDiv.appendChild(mainContentDiv);
 
   const contactHeadline = document.createElement("h2");
   contactHeadline.textContent = "Contact Us!";
@@ -55,7 +57,5 @@ function createContact() {
   }
 
   mainContentDiv.appendChild(openingHoursDiv);
-
-  contentDiv.appendChild(mainContentDiv);
 }
 export default createContact;
