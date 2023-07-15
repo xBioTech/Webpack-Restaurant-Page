@@ -3,7 +3,7 @@ $second-accent: #28abe3;
 $accent: #6b2c70;
 $main-content-color: #234e33;
 
-.menu {
+.main-content {
   display: grid;
   background-color: $main-content-color;
   justify-items: center;
@@ -23,7 +23,7 @@ $main-content-color: #234e33;
 }
 
 @media only screen and (min-width: 768px) {
-  .menu {
+  .main-content {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }

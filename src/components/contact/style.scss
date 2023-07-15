@@ -1,7 +1,7 @@
 $main-content-color: #234e33;
 $secondary: #d4af37;
 $accent: #6b2c70;
-.contact {
+.main-content {
   background-color: $main-content-color;
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@ $accent: #6b2c70;
 }
 
 @media only screen and (min-width: 768px) {
-  .contact {
+  .main-content {
     font-size: 1.5rem;
   }
 }
