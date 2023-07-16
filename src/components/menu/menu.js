@@ -8,7 +8,7 @@ import manaLegendaryImage from "../../assets/mana_legendary.svg";
 function createMenu() {
   const contentDiv = document.getElementById("content");
   const mainContentDiv = document.createElement("div");
-  mainContentDiv.classList.add("main-content");
+  mainContentDiv.classList.add("main-content", "menu-grid");
   contentDiv.appendChild(mainContentDiv);
 
   const cardHealthBlue = document.createElement("div");
